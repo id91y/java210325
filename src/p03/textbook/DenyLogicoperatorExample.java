@@ -10,6 +10,6 @@ public class DenyLogicoperatorExample {
 		
 		play = !play;
 		System.out.println(play);
-		
+		1
 	}
 }
