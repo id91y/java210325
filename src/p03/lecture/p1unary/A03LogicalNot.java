@@ -15,3 +15,7 @@ public class A03LogicalNot {
 		System.out.println(d);
 	}
 }
+
+
+
+
