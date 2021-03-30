@@ -2,7 +2,7 @@ package p02.lecture;
 
 public class A06TypeLong {
 	public static void main(String[] args) {
-		// long : 8byte(64bit)
+		// long : 8byte(64bit) 
 		//
 		System.out.println("최대값");
 		System.out.println(Long.MAX_VALUE);
@@ -12,7 +12,19 @@ public class A06TypeLong {
 		long longVar;
 		longVar = 9223372036854775807L; // L 을 끝에 작성 long literal
 		longVar = -9223372036854775808L;
+//		longVar = -9223372036854775809L; // not ok
+//		longVar = 9223372036854775808L;  // not ok
 		
 		longVar = 1_000_000;
+		longVar = 100_0000;
+		
+		
+		
 	}
 }
+
+
+
+
+
+

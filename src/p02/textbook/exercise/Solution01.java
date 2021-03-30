@@ -60,7 +60,7 @@ public class Solution01 {
 		double var1 = (double) intValue;
 		byte var2 = (byte) intValue;
 		int var3 = (int) doubleValue;
-//		char var4 = (char) strValue;
+		char var4 = (char) strValue;
 		
 		
 		
@@ -84,7 +84,7 @@ public class Solution01 {
 		float floatValue8 = 2.5F;
 		double doubleValue8 = 2.5;
 		
-		byte result1 = byteValue8 + byteValue8; //byte+byte는 int라서 불가
+		byte result1 = byteValue8 + byteValue8;
 		int result2 = 5 + byteValue8;
 		float result3 = 5 + floatValue8;
 		double result4 = 5 + doubleValue8;

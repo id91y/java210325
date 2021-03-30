@@ -1,6 +1,7 @@
 package p03.lecture.p2binary.p3logical;
 
 public class A03Logical {
+
 	public static void main(String[] args) {
 		// and &&, & (논리곱)
 		// or ||, | (논리합)
@@ -65,3 +66,11 @@ public class A03Logical {
 		System.out.println(false ^ false); // false
 	}
 }
+
+
+
+
+
+
+
+

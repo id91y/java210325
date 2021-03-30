@@ -21,3 +21,9 @@ public class A03Type {
 		
 	}
 }
+
+
+
+
+
+

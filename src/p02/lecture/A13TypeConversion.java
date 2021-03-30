@@ -26,3 +26,10 @@ public class A13TypeConversion {
 		System.out.println(doubleVar1);
 	}
 }
+
+
+
+
+
+
+
