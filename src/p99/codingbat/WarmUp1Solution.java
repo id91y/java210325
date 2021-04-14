@@ -1,6 +1,64 @@
 package p99.codingbat;
 
 public class WarmUp1Solution {
+	public boolean hasTeen(int a, int b, int c) {
+		boolean aTeen = (a >= 13) && (a <= 19);
+		boolean bTeen = (b >= 13) && (b <= 19);
+		boolean cTeen = (c >= 13) && (c <= 19);
+
+		return aTeen || bTeen || cTeen;
+	}
+
+	public boolean startHi(String str) {
+		if (str.length() >= 2) {
+			char first = str.charAt(0);
+			char second = str.charAt(1);
+			return first == 'h' && second == 'i';
+		}
+
+		return false;
+	}
+
+	public String front22(String str) {
+		if (str.length() > 2) {
+			String front = str.substring(0, 2);
+
+			return front + str + front;
+		}
+
+		return str + str + str;
+
+	}
+
+	public boolean or35(int n) {
+		return (n % 3 == 0) || (n % 5 == 0);
+	}
+
+	public String front3(String str) {
+
+		String front = str;
+
+		if (str.length() > 3) {
+			front = str.substring(0, 3);
+		}
+
+		return front + front + front;
+	}
+
+	public String frontBack(String str) {
+		if (str.length() > 1) {
+			char front = str.charAt(0);
+			char last = str.charAt(str.length() - 1);
+
+			String mid = str.substring(1, str.length() - 1);
+
+			return last + mid + front;
+		}
+
+		return str;
+
+	}
+
 	public String missingChar(String str, int n) {
 		String res = "";
 
