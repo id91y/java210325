@@ -15,6 +15,19 @@ public class Ex04List {
 		
 		Student max = maxScore(list);
 		System.out.println(max.getName() + ":" + max.getScore());
+		
+		int sum = sumScore(list);
+		System.out.println(sum);
+	}
+
+	private static int sumScore(List<Student> list) {
+		int sum = 0;
+
+		for (Student s : list) {
+			sum += s.getScore();
+		}
+		
+		return sum;
 	}
 
 	private static Student maxScore(List<Student> list) {
