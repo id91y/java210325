@@ -16,17 +16,22 @@ public class A13FileCopy {
 		Writer fw = new FileWriter(des);
 		
 		// 코드 작성......
-		
 		char[] datas = new char[30];
 		int len = 0;
 		
-		while((len = fr.read(datas)) != -1) {
-			fw.write(datas, 0 , len);
+		while ((len = fr.read(datas)) != -1) {
+			fw.write(datas, 0, len);
 		}
 		
 		fr.close();
 		fw.close();
+		
 		System.out.println("복사 완료");
 	}
 }
+
+
+
+
+
 

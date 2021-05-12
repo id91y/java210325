@@ -18,6 +18,7 @@ public class A12FileCopy {
 		// 코드 작성......
 		
 		int c = 0;
+		
 		while ((c = fr.read()) != -1) {
 			fw.write(c);
 		}
